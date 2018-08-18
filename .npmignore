@@ -4,3 +4,4 @@
 yarn-error.log
 npm-debug.log
 *.ts
+!*.d.ts
