@@ -1,5 +1,5 @@
 {
-  "name": "tslint-rules",
+  "name": "@softwareventures/tslint-rules",
   "version": "0.0.0",
   "description": "Standard tslint rules for Software Ventures Limited.",
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
