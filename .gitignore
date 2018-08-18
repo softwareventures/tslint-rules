@@ -2,3 +2,4 @@
 /.idea/**/tasks.xml
 /node_modules
 npm-debug.log*
+*.js
