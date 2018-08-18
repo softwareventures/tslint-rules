@@ -2,6 +2,7 @@
   <dictionary name="djc">
     <words>
       <w>interop</w>
+      <w>mergeable</w>
     </words>
   </dictionary>
 </component>
