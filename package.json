@@ -3,7 +3,10 @@
   "version": "0.2.3",
   "description": "Standard tslint rules for Software Ventures Limited.",
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
+  "homepage": "https://github.com/softwareventures/tslint-rules",
+  "bugs": "https://github.com/softwareventures/tslint-rules/issues",
   "license": "MIT",
+  "repository": "github:softwareventures/tslint-rules",
   "scripts": {
     "prepare": "tslint --project . && tsc"
   },
