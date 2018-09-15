@@ -10,6 +10,7 @@ export = {
         "no-consecutive-blank-lines": {
             options: [2]
         },
+        "no-console": false,
         "no-duplicate-switch-case": true,
         "no-duplicate-variable": true,
         "no-empty": false,
@@ -90,6 +91,7 @@ export = {
         "no-consecutive-blank-lines": {
             options: [2]
         },
+        "no-console": false,
         "no-duplicate-imports": true,
         "no-duplicate-switch-case": true,
         "no-duplicate-variable": true,
