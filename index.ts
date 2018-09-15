@@ -28,6 +28,9 @@ export = {
         "object-literal-key-quotes": {
             options: ["consistent-as-needed"]
         },
+        "object-literal-sort-keys": {
+            options: ["match-declaration-order"]
+        },
         "prefer-function-over-method": true,
         "prefer-while": true,
         "ter-indent": {
@@ -124,6 +127,9 @@ export = {
         },
         "object-literal-key-quotes": {
             options: ["consistent-as-needed"]
+        },
+        "object-literal-sort-keys": {
+            options: ["match-declaration-order"],
         },
         "prefer-function-over-method": true,
         "prefer-object-spread": true,
