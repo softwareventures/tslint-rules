@@ -163,8 +163,7 @@ export = {
         },
         "typedef": {
             options: [
-                "call-signature",
-                "parameter"
+                "call-signature"
             ]
         },
         "variable-name": {
