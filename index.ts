@@ -43,7 +43,7 @@ export = {
                     parameters: "first"
                 },
                 MemberExpression: 1,
-                SwitchCase: 0,
+                SwitchCase: 1,
                 VariableDeclarator: 1,
                 outerIIFEBody: 1
             }]
@@ -143,7 +143,7 @@ export = {
                     parameters: "first"
                 },
                 MemberExpression: 1,
-                SwitchCase: 0,
+                SwitchCase: 1,
                 VariableDeclarator: 1,
                 outerIIFEBody: 1
             }]
