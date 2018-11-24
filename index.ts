@@ -31,7 +31,9 @@ export = {
         "object-literal-sort-keys": {
             options: ["match-declaration-order"]
         },
-        "prefer-function-over-method": true,
+        "prefer-function-over-method": {
+            options: ["allow-public", "allow-protected"]
+        },
         "prefer-while": true,
         "ter-indent": {
             options: [4, {
@@ -131,7 +133,9 @@ export = {
         "object-literal-sort-keys": {
             options: ["match-declaration-order"],
         },
-        "prefer-function-over-method": true,
+        "prefer-function-over-method": {
+            options: ["allow-public", "allow-protected"]
+        },
         "prefer-object-spread": true,
         "prefer-while": true,
         "space-within-parens": {
