@@ -5,6 +5,7 @@ export = {
             options: "check-space"
         },
         "encoding": true,
+        "eofline": false,
         "indent": false,
         "no-bitwise": false,
         "no-consecutive-blank-lines": {
@@ -87,6 +88,7 @@ export = {
             options: "check-space"
         },
         "encoding": true,
+        "eofline": false,
         "indent": false,
         "interface-name": false,
         "interface-over-type-literal": false,
