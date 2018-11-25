@@ -114,7 +114,9 @@ export = {
         "no-shadowed-variable": false,
         "no-switch-case-fall-through": true,
         "no-this-assignment": true,
-        "no-unbound-method": true,
+        "no-unbound-method": {
+            options: ["ignore-static"]
+        },
         "no-unexpected-multiline": true,
         "no-unnecessary-callback-wrapper": true,
         "no-unnecessary-class": {
