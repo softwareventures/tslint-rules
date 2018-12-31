@@ -3,8 +3,10 @@
     "target": "es5",
     "module": "commonjs",
     "removeComments": true,
+    "inlineSources": true,
     "declaration": true,
     "downlevelIteration": true,
+    "sourceMap": true,
     "strict": true,
     "esModuleInterop": true
   }
