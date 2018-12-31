@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@softwareventures/tsconfig@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-0.1.0.tgz#5aeeb69fcbb51efed4f45fc1667d2b69f37f9d80"
-  integrity sha512-2DUNzf0/8fX22ofIVL/43oV1A9CAYzEeHmlKl2wtjXolslvuQGzXvaKirgU9AwExlGr+n8UvOtANjjc01O2Qmg==
+"@softwareventures/tsconfig@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@softwareventures/tsconfig/-/tsconfig-1.0.0.tgz#987228780994db57e92332b4f595a81956fe7920"
+  integrity sha512-uHOzxmiCwmml0Wk4GMhvafLgBjQCGUxKpiYYSqAo5EqTXew2EHqu8jEMlIvRarqon7pPugReixZaQdvAevqoZQ==
 
 ansi-regex@^2.0.0:
   version "2.1.1"
