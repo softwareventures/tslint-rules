@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
+    "lib": ["es5"],
     "removeComments": true,
     "inlineSources": true,
     "declaration": true,
