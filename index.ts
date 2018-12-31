@@ -85,7 +85,6 @@ const jsRules = {
     }
 };
 
-
 const rules = {
     ...jsRules,
     "arrow-parens": false,
