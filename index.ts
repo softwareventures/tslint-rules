@@ -24,7 +24,6 @@ const jsRules = {
     "no-unexpected-multiline": true,
     "no-unnecessary-callback-wrapper": true,
     "no-unsafe-finally": true,
-    "no-unused-variable": true,
     "object-literal-key-quotes": {
         options: ["consistent-as-needed"]
     },
