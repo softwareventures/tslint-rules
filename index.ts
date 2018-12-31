@@ -4,6 +4,7 @@ const jsRules = {
     },
     "encoding": true,
     "eofline": false,
+    "function-constructor": true,
     "indent": false,
     "no-bitwise": false,
     "no-consecutive-blank-lines": {
@@ -64,6 +65,8 @@ const jsRules = {
             singleline: "never"
         }
     },
+    "unnecessary-bind": true,
+    "unnecessary-constructor": true,
     "variable-name": {
         options: ["check-format"]
     },
@@ -72,10 +75,13 @@ const jsRules = {
             "check-branch",
             "check-decl",
             "check-operator",
+            "check-module",
+            "check-separator",
             "check-rest-spread",
             "check-separator",
             "check-type",
-            "check-type-operator"
+            "check-type-operator",
+            "check-preblock"
         ]
     }
 };

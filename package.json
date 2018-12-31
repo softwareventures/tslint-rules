@@ -13,7 +13,6 @@
   "sideEffects": false,
   "devDependencies": {
     "@softwareventures/tsconfig": "^1.0.0",
-    "tslint": "^5.11.0",
     "typescript": "^3.2.2"
   },
   "dependencies": {
@@ -21,6 +20,6 @@
     "tslint-eslint-rules": "^5.4.0"
   },
   "peerDependencies": {
-    "tslint": "^5.0.0"
+    "tslint": "^5.12.0"
   }
 }
