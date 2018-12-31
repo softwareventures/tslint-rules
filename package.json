@@ -17,6 +17,7 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "tslib": "^1.9.3",
     "tslint-eslint-rules": "^5.4.0"
   },
   "peerDependencies": {
