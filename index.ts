@@ -75,7 +75,6 @@ const jsRules = {
             "check-branch",
             "check-decl",
             "check-operator",
-            "check-module",
             "check-separator",
             "check-rest-spread",
             "check-separator",
