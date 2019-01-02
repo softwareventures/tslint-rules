@@ -1,5 +1,7 @@
 # tslint-rules
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/softwareventures/tslint-rules.svg)](https://greenkeeper.io/)
+
 Standard tslint rules for [Software Ventures Limited](http://www.softwareventures.co.uk/).
 
 
