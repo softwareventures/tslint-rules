@@ -1,14 +1,19 @@
 <component name="ProjectDictionaryState">
   <dictionary name="djc">
     <words>
+      <w>decl</w>
       <w>declarator</w>
       <w>eslint</w>
       <w>interop</w>
       <w>mergeable</w>
+      <w>multiline</w>
       <w>noninfringement</w>
+      <w>parens</w>
       <w>preblock</w>
+      <w>singleline</w>
       <w>softwareventures</w>
       <w>tslib</w>
+      <w>tslint</w>
     </words>
   </dictionary>
 </component>
