@@ -3,6 +3,7 @@
     <words>
       <w>decl</w>
       <w>declarator</w>
+      <w>eofline</w>
       <w>eslint</w>
       <w>interop</w>
       <w>mergeable</w>
