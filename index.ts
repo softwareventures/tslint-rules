@@ -27,6 +27,7 @@ const jsRules = {
     "object-literal-key-quotes": {
         options: ["consistent-as-needed"]
     },
+    "object-literal-sort-keys": false,
     "prefer-function-over-method": {
         options: ["allow-public", "allow-protected"]
     },
