@@ -15,7 +15,7 @@ const jsRules = {
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-empty-character-class": true,
-    "no-implicit-dependencies": true,
+    "no-implicit-dependencies": [true, ["ava"]],
     "no-invalid-regexp": true,
     "no-irregular-whitespace": true,
     "no-multi-spaces": true,
