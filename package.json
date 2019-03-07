@@ -1,6 +1,6 @@
 {
   "name": "@softwareventures/tslint-rules",
-  "version": "0.6.4",
+  "version": "0.0.0-development",
   "description": "Standard tslint rules for Software Ventures Limited.",
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/tslint-rules",
@@ -9,13 +9,15 @@
   "repository": "github:softwareventures/tslint-rules",
   "scripts": {
     "prepare": "tslint --project . && tsc",
-    "test": "echo No tests yet"
+    "test": "echo No tests yet",
+    "semantic-release": "semantic-release"
   },
   "sideEffects": false,
   "devDependencies": {
     "@softwareventures/tsconfig": "1.0.0",
     "tslint": "5.13.1",
-    "typescript": "3.3.3333"
+    "typescript": "3.3.3333",
+    "semantic-release": "15.13.3"
   },
   "dependencies": {
     "cz-conventional-changelog": "^2.1.0",
