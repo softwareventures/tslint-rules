@@ -17,7 +17,7 @@
     "@softwareventures/tsconfig": "1.0.0",
     "cz-conventional-changelog": "2.1.0",
     "tslint": "5.14.0",
-    "typescript": "3.3.3333",
+    "typescript": "3.3.4000",
     "semantic-release": "15.13.3"
   },
   "dependencies": {
