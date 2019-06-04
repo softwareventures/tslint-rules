@@ -31,6 +31,7 @@ const jsRules = {
     "prefer-function-over-method": {
         options: ["allow-public", "allow-protected"]
     },
+    "prefer-for-of": false,
     "prefer-while": true,
     "ter-indent": {
         options: [4, {
