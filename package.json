@@ -18,7 +18,7 @@
     "cz-conventional-changelog": "3.0.2",
     "tslint": "5.20.1",
     "typescript": "3.7.5",
-    "semantic-release": "16.0.3"
+    "semantic-release": "16.0.4"
   },
   "dependencies": {
     "tslib": "^1.9.3",
