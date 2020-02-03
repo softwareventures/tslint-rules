@@ -19,6 +19,7 @@ const jsRules = {
     "no-invalid-regexp": true,
     "no-irregular-whitespace": true,
     "no-multi-spaces": true,
+    "no-return-await": true,
     "no-shadowed-variable": false,
     "no-switch-case-fall-through": true,
     "no-unexpected-multiline": true,
@@ -33,6 +34,7 @@ const jsRules = {
     },
     "prefer-for-of": false,
     "prefer-while": true,
+    "promise-function-async": true,
     "ter-indent": {
         options: [4, {
             CallExpression: {
