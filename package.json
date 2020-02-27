@@ -14,7 +14,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@softwareventures/tsconfig": "2.1.0",
+    "@softwareventures/tsconfig": "2.2.0",
     "cz-conventional-changelog": "3.1.0",
     "tslint": "5.20.1",
     "typescript": "3.8.2",
