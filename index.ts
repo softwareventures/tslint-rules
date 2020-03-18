@@ -2,6 +2,7 @@ const jsRules = {
     "align": {
         options: ["parameters", "statements"]
     },
+    "arrow-parens": false,
     "arrow-return-shorthand": true,
     "comment-format": {
         options: "check-space"
@@ -12,6 +13,7 @@ const jsRules = {
     "function-constructor": true,
     "import-spacing": true,
     "indent": false,
+    "max-classes-per-file": false,
     "max-line-length": {
         options: [120]
     },
@@ -26,10 +28,12 @@ const jsRules = {
         options: [2]
     },
     "no-console": false,
+    "no-duplicate-imports": true,
     "no-duplicate-switch-case": true,
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-empty-character-class": true,
+    "no-for-in-array": true,
     "no-implicit-dependencies": [true, ["ava"]],
     "no-invalid-regexp": true,
     "no-irregular-whitespace": true,
@@ -37,10 +41,21 @@ const jsRules = {
     "no-return-await": true,
     "no-shadowed-variable": false,
     "no-switch-case-fall-through": true,
+    "no-this-assignment": true,
     "no-trailing-whitespace": true,
+    "no-unbound-method": {
+        options: ["ignore-static"]
+    },
     "no-unexpected-multiline": true,
     "no-unnecessary-callback-wrapper": true,
+    "no-unnecessary-class": {
+        options: ["allow-constructor-only"]
+    },
     "no-unsafe-finally": true,
+    "no-var-keyword": true,
+    "no-void-expression": {
+        options: ["ignore-arrow-function-shorthand"]
+    },
     "object-literal-key-quotes": {
         options: ["consistent-as-needed"]
     },
@@ -65,6 +80,7 @@ const jsRules = {
         options: ["allow-public", "allow-protected"]
     },
     "prefer-for-of": false,
+    "prefer-object-spread": true,
     "prefer-while": true,
     "promise-function-async": true,
     "quotemark": {
@@ -81,6 +97,9 @@ const jsRules = {
             method: "never",
             named: "never"
         }
+    },
+    "space-within-parens": {
+        options: [0]
     },
     "ter-indent": {
         options: [4, {
@@ -137,35 +156,15 @@ const rules = {
     "array-type": {
         options: ["array-simple"]
     },
-    "arrow-parens": false,
     "await-promise": true,
     "interface-name": false,
     "interface-over-type-literal": false,
-    "max-classes-per-file": false,
     "no-boolean-literal-compare": true,
-    "no-duplicate-imports": true,
-    "no-duplicate-switch-case": true,
     "no-floating-promises": true,
-    "no-for-in-array": true,
     "no-inferred-empty-object-type": true,
     "no-mergeable-namespace": true,
     "no-redundant-jsdoc": true,
-    "no-this-assignment": true,
-    "no-unbound-method": {
-        options: ["ignore-static"]
-    },
-    "no-unnecessary-class": {
-        options: ["allow-constructor-only"]
-    },
     "no-unnecessary-type-assertion": true,
-    "no-var-keyword": true,
-    "no-void-expression": {
-        options: ["ignore-arrow-function-shorthand"]
-    },
-    "prefer-object-spread": true,
-    "space-within-parens": {
-        options: [0]
-    },
     "typedef": {
         options: [
             "call-signature"
