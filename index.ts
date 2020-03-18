@@ -1,11 +1,26 @@
 const jsRules = {
+    "align": {
+        options: ["parameters", "statements"]
+    },
+    "arrow-return-shorthand": true,
     "comment-format": {
         options: "check-space"
     },
+    "curly": true,
     "encoding": true,
     "eofline": false,
     "function-constructor": true,
+    "import-spacing": true,
     "indent": false,
+    "max-line-length": {
+        options: [120]
+    },
+    "member-access": true,
+    "member-ordering": {
+        options: {
+            order: "statics-first"
+        }
+    },
     "no-bitwise": false,
     "no-consecutive-blank-lines": {
         options: [2]
@@ -22,6 +37,7 @@ const jsRules = {
     "no-return-await": true,
     "no-shadowed-variable": false,
     "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": true,
     "no-unexpected-multiline": true,
     "no-unnecessary-callback-wrapper": true,
     "no-unsafe-finally": true,
@@ -29,12 +45,43 @@ const jsRules = {
         options: ["consistent-as-needed"]
     },
     "object-literal-sort-keys": false,
+    "one-line": {
+        options: [
+            "check-catch",
+            "check-else",
+            "check-finally",
+            "check-open-brace",
+            "check-whitespace"
+        ]
+    },
+    "ordered-imports": {
+        options: {
+            "import-sources-order": "case-insensitive",
+            "module-source-path": "full",
+            "named-imports-order": "case-insensitive"
+        }
+    },
     "prefer-function-over-method": {
         options: ["allow-public", "allow-protected"]
     },
     "prefer-for-of": false,
     "prefer-while": true,
     "promise-function-async": true,
+    "quotemark": {
+        options: ["double", "avoid-escape"]
+    },
+    "semicolon": {
+        options: ["always"]
+    },
+    "space-before-function-paren": {
+        options: {
+            anonymous: "never",
+            asyncArrow: "always",
+            constructor: "never",
+            method: "never",
+            named: "never"
+        }
+    },
     "ter-indent": {
         options: [4, {
             CallExpression: {
@@ -87,6 +134,9 @@ const jsRules = {
 
 const rules = {
     ...jsRules,
+    "array-type": {
+        options: ["array-simple"]
+    },
     "arrow-parens": false,
     "await-promise": true,
     "interface-name": false,
@@ -119,6 +169,24 @@ const rules = {
     "typedef": {
         options: [
             "call-signature"
+        ]
+    },
+    "typedef-whitespace": {
+        options: [
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            },
+            {
+                "call-signature": "onespace",
+                "index-signature": "onespace",
+                "parameter": "onespace",
+                "property-declaration": "onespace",
+                "variable-declaration": "onespace"
+            }
         ]
     }
 };
