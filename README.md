@@ -1,7 +1,7 @@
 # tslint-rules
 
 Standard tslint rules for
-[Software Ventures Limited](http://www.softwareventures.co.uk/).
+[Software Ventures Limited](https://softwareventures.co.uk/).
 
 ## Install
 
