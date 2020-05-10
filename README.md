@@ -1,7 +1,7 @@
 # tslint-rules
 
-Standard tslint rules for [Software Ventures Limited](http://www.softwareventures.co.uk/).
-
+Standard tslint rules for
+[Software Ventures Limited](http://www.softwareventures.co.uk/).
 
 ## Install
 
@@ -15,13 +15,12 @@ or for yarn users:
 yarn add --dev @softwareventures/tslint-rules
 ```
 
-
 ## Usage
 
 To apply this tslint configuration to your project, add this to `tslint.json`:
 
 ```json
 {
-  "extends": "@softwareventures/tslint-rules"
+    "extends": "@softwareventures/tslint-rules"
 }
 ```

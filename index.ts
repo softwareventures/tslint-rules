@@ -101,9 +101,7 @@ const rules = {
     "no-redundant-jsdoc": true,
     "no-unnecessary-type-assertion": true,
     "typedef": {
-        options: [
-            "call-signature"
-        ]
+        options: ["call-signature"]
     },
     "typedef-whitespace": false
 };
