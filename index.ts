@@ -1,32 +1,28 @@
 const jsRules = {
-    "align": {
-        options: ["parameters", "statements"]
-    },
+    "align": false,
     "arrow-parens": false,
     "arrow-return-shorthand": true,
-    "comment-format": {
-        options: "check-space"
-    },
+    "comment-format": false,
     "curly": true,
-    "encoding": true,
+    "encoding": false,
     "eofline": false,
     "function-constructor": true,
-    "import-spacing": true,
+    "import-spacing": false,
     "indent": false,
+    "jsdoc-format": false,
+    "linebreak-style": false,
     "max-classes-per-file": false,
-    "max-line-length": {
-        options: [120]
-    },
+    "max-line-length": false,
     "member-access": true,
     "member-ordering": {
         options: {
             order: "statics-first"
         }
     },
+    "newline-before-return": false,
+    "new-parens": false,
     "no-bitwise": false,
-    "no-consecutive-blank-lines": {
-        options: [2]
-    },
+    "no-consecutive-blank-lines": false,
     "no-console": false,
     "no-duplicate-imports": true,
     "no-duplicate-switch-case": true,
@@ -42,7 +38,7 @@ const jsRules = {
     "no-shadowed-variable": false,
     "no-switch-case-fall-through": true,
     "no-this-assignment": true,
-    "no-trailing-whitespace": true,
+    "no-trailing-whitespace": false,
     "no-unbound-method": {
         options: ["ignore-static"]
     },
@@ -56,19 +52,10 @@ const jsRules = {
     "no-void-expression": {
         options: ["ignore-arrow-function-shorthand"]
     },
-    "object-literal-key-quotes": {
-        options: ["consistent-as-needed"]
-    },
+    "number-literal-format": false,
+    "object-literal-key-quotes": false,
     "object-literal-sort-keys": false,
-    "one-line": {
-        options: [
-            "check-catch",
-            "check-else",
-            "check-finally",
-            "check-open-brace",
-            "check-whitespace"
-        ]
-    },
+    "one-line": false,
     "ordered-imports": {
         options: {
             "import-sources-order": "case-insensitive",
@@ -83,72 +70,20 @@ const jsRules = {
     "prefer-object-spread": true,
     "prefer-while": true,
     "promise-function-async": true,
-    "quotemark": {
-        options: ["double", "avoid-escape"]
-    },
-    "semicolon": {
-        options: ["always"]
-    },
-    "space-before-function-paren": {
-        options: {
-            anonymous: "never",
-            asyncArrow: "always",
-            constructor: "never",
-            method: "never",
-            named: "never"
-        }
-    },
-    "space-within-parens": {
-        options: [0]
-    },
-    "ter-indent": {
-        options: [4, {
-            CallExpression: {
-                arguments: 1
-            },
-            FunctionDeclaration: {
-                body: 1,
-                parameters: "first"
-            },
-            FunctionExpression: {
-                body: 1,
-                parameters: "first"
-            },
-            MemberExpression: 1,
-            SwitchCase: 1,
-            VariableDeclarator: 1,
-            outerIIFEBody: 1
-        }]
-    },
+    "quotemark": false,
+    "semicolon": false,
+    "space-before-function-paren": false,
+    "space-within-parens": false,
     "ter-no-proto": true,
     "ter-no-script-url": true,
     "ter-no-self-compare": true,
-    "ter-no-tabs": true,
-    "trailing-comma": {
-        options: {
-            esSpecCompliant: true,
-            multiline: "ignore",
-            singleline: "never"
-        }
-    },
+    "trailing-comma": false,
     "unnecessary-bind": true,
     "unnecessary-constructor": true,
     "variable-name": {
         options: ["check-format"]
     },
-    "whitespace": {
-        options: [
-            "check-branch",
-            "check-decl",
-            "check-operator",
-            "check-separator",
-            "check-rest-spread",
-            "check-separator",
-            "check-type",
-            "check-type-operator",
-            "check-preblock"
-        ]
-    }
+    "whitespace": false
 };
 
 const rules = {
@@ -170,24 +105,7 @@ const rules = {
             "call-signature"
         ]
     },
-    "typedef-whitespace": {
-        options: [
-            {
-                "call-signature": "nospace",
-                "index-signature": "nospace",
-                "parameter": "nospace",
-                "property-declaration": "nospace",
-                "variable-declaration": "nospace"
-            },
-            {
-                "call-signature": "onespace",
-                "index-signature": "onespace",
-                "parameter": "onespace",
-                "property-declaration": "onespace",
-                "variable-declaration": "onespace"
-            }
-        ]
-    }
+    "typedef-whitespace": false
 };
 
 export = {
