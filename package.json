@@ -25,7 +25,7 @@
     "typescript": "3.9.2"
   },
   "dependencies": {
-    "tslib": "^1.9.3",
+    "tslib": "^1.9.3 || ^2.0.0",
     "tslint-eslint-rules": "^5.4.0"
   },
   "peerDependencies": {
