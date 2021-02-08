@@ -20,7 +20,7 @@
     "husky": "4.3.8",
     "precise-commits": "1.0.2",
     "prettier": "2.2.1",
-    "semantic-release": "17.3.7",
+    "semantic-release": "17.3.8",
     "tslint": "6.1.3",
     "typescript": "4.1.3"
   },
