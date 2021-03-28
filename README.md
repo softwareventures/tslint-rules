@@ -3,6 +3,10 @@
 Standard tslint rules for
 [Software Ventures Limited](https://softwareventures.co.uk/).
 
+**Deprecated**: tslint is [deprecated](https://blog.palantir.com/tslint-in-2019-1a144c2317a9).
+Please migrate to [eslint](https://eslint.org/) and
+[eslint-config](https://www.npmjs.com/package/@softwareventures/eslint-config).
+
 ## Install
 
 ```bash
