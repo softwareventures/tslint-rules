@@ -15,6 +15,7 @@
   "sideEffects": false,
   "devDependencies": {
     "@softwareventures/prettier-config": "1.0.2",
+    "@softwareventures/semantic-release-config": "1.1.1",
     "@softwareventures/tsconfig": "2.3.3",
     "cz-conventional-changelog": "3.3.0",
     "husky": "4.3.8",
@@ -41,5 +42,8 @@
     "hooks": {
       "pre-commit": "precise-commits"
     }
+  },
+  "release": {
+    "extends": "@softwareventures/semantic-release-config"
   }
 }
