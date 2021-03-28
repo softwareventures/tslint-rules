@@ -18,7 +18,7 @@
     "@softwareventures/semantic-release-config": "1.1.1",
     "@softwareventures/tsconfig": "2.3.3",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "4.3.8",
+    "husky": "5.2.0",
     "precise-commits": "1.0.2",
     "prettier": "2.2.1",
     "semantic-release": "17.4.2",
