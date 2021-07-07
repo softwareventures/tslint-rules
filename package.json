@@ -13,6 +13,9 @@
     "test": "tslint --project ."
   },
   "sideEffects": false,
+  "engines": {
+    "node": "^12 || ^14 || >=16"
+  },
   "dependencies": {
     "tslib": "^1.9.3 || ^2.0.0 || ^2.1.0",
     "tslint-eslint-rules": "^5.4.0"
