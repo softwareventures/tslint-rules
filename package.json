@@ -8,7 +8,7 @@
   "repository": "github:softwareventures/tslint-rules",
   "license": "ISC",
   "scripts": {
-    "prepare": "tsc",
+    "prepare": "tsc && husky install",
     "semantic-release": "semantic-release",
     "test": "tslint --project ."
   },
@@ -43,10 +43,5 @@
   },
   "release": {
     "extends": "@softwareventures/semantic-release-config"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "precise-commits"
-    }
   }
 }
