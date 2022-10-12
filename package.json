@@ -8,6 +8,7 @@
   "repository": "github:softwareventures/tslint-rules",
   "license": "ISC",
   "scripts": {
+    "lint": "tsc --noEmit && tslint --project . && prettier --check .",
     "prepare": "tsc && husky install",
     "semantic-release": "semantic-release",
     "test": "tslint --project ."
