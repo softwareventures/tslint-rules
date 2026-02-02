@@ -28,7 +28,7 @@
   "devDependencies": {
     "@softwareventures/prettier-config": "4.0.0",
     "@softwareventures/semantic-release-config": "4.1.0",
-    "@softwareventures/tsconfig": "7.3.0",
+    "@softwareventures/tsconfig": "8.1.1",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "precise-commits": "1.0.2",
