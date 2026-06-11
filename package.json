@@ -30,7 +30,7 @@
     "@softwareventures/semantic-release-config": "4.1.0",
     "@softwareventures/tsconfig": "7.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "8.0.3",
+    "husky": "9.1.7",
     "precise-commits": "1.0.2",
     "prettier": "2.8.8",
     "semantic-release": "19.0.5",
